@@ -30,3 +30,25 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
+.header-links:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 100%;
+  background-color: var(--accent-color);
+  position: relative;
+  bottom: -20px;
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 350ms;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.header-links:hover {
+  color: var(--accent-color);
+}
+.header-links:hover::after {
+  opacity: 1;
+}
+.header-items{
+    position: relative;
+}
