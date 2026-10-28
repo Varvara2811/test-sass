@@ -1,0 +1,6 @@
+@mixin card-styles($weight, $size ,$color){
+    color: $color;
+font-family: Merriweather;
+font-weight:$weight;
+font-size: $size;
+}
