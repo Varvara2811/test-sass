@@ -9,7 +9,7 @@
         justify-content: space-between;
     }
     &__list{
-    display: none;  
+    display: flex;  
     gap: 50px;
     }
     &__contacts{
@@ -19,7 +19,7 @@ font-size: 18px;
 &:hover{
     color: #F97316;
     transition: color;
-    transition-duration: 300ms;
+    transition-duration: 200ms;
     transition-timing-function: ease;
 }   
     }

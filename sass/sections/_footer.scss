@@ -1,0 +1,15 @@
+.footer{
+    padding: 40px 0;
+    background-color:#FFFFFF;
+    border-radius: 50px;
+    & .container{
+display: flex;
+justify-content: space-between;
+}
+&__text,&__link{
+          color: #0F172A;
+font-family: Raleway;
+font-weight: 600;
+font-size: 15px;  
+}
+}
